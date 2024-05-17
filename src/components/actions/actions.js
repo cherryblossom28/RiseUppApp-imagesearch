@@ -45,7 +45,7 @@ export const fetchData = () => {
         const { page, activeCategory } = getState();
         try {
             dispatch(setApiStatus(apiStatusConstants.inProgress));
-            const url = `https://api.unsplash.com/search/collections/?client_id=YtioLfE9uuJXGIolXkEXU9QaIUTmbihEFu_XgS8tXeU&page=${page}&query=${activeCategory}`;
+            const url = `https://api.unsplash.com/search/collections/?client_id=np5zX3N_5zQHPGTs97FVv1TUUZYZ2Tt7h2vXMHRa4lw&page=${page}&query=${activeCategory}`;
             const response = await axios.get(url);
             const formattedData = response.data.results.map((each) => convertToPascalCase(each));
             dispatch(updatePicturesList(formattedData));
