@@ -1,40 +1,33 @@
 # <span style="color: green;"> Rise Upp App</span>
 
-#### An application that allows users to search for a collection of pictures.
+#### An application, where users can effortlessly explore and search through a vast collection of captivating pictures.
 
-### <span style="color: orange;"> Usage</span>
+### <span style="color: orange;"> Getting Started </span>
 
 ```
-git clone <github repository link>  //to clone the github repository
 npm install                         //to install all the dependencies required to run application
 npm start                           //to start the application
 ```
 ### Configure your own auth on [auth0.com](https://auth0.com/)
 
-> when running on your machine:
-  - set Allowed Callback Urls: `http://localhost:yourport`
-  - set Allowed Logout Urls: `http://localhost:yourport`
-  - set Allowed Web Origins: `http://localhost:yourport`
 
-## <span style="color: Orange;"> Development</span>
 
-### <span style="color: red;"> Tech Stack</span>
+## <span style="color: Orange;"> Development </span>
 
-> <span style="color: violet;">Frontend - ReactJS (Redux store & Redux-thunk)</span>
+### <span style="color: red;"> Tech Stack </span>
 
-### <span style="color: red;"> Features and Functionality</span>
+> <span style="color: violet;">Frontend - ReactJS </span>
+
+### <span style="color: red;"> Features & Functionalities</span>
 
 - `Login`, `authentication` using `auth0`.
 - App consist of `Input section`, `picture category bar` & `list of pictures` with `pagination`. 
-- `Home page` consists of `input Section` where user can `enter picture category` to get a list of pictures.
-- State management using `react-redux`, `redux-thunk` and `@reduxjs/toolkit`. (minimalist approach to handling asynchronous logic).
-- On clicking on the `categories tab` will display the `respective category images`.
-- `Active category` tab on the tab.
+- `Home page` consists of `input Section` where user can enter `picture category` to get a list of pictures.
+- On clicking on the `categories `tab will display the `respective category images`.
 - On `hover` over the picture `pop` ups the `image info`.
-- `Lazy-loading` of images.
 - `No Results view` in case of `no results` for user input.
 - `Failure view` on failure.
-- `Responsive`
+
 
 ## <span style="color: Green;"> Guidelines</span>
 
@@ -58,24 +51,6 @@ npm start                           //to start the application
 
 - Reference: https://wireframe.cc/2AETjp
 
-## <span style="color: Red;">Previews</span>
 
-### <span style="color: Orange;"> Mobile View</span>
 
-###### [Home View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704536303/riseup/Screenshot_421_vfx9hz.png)
-
-###### [No Results View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704536302/riseup/Screenshot_422_e6msln.png)
-
-###### [Failure View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704536302/riseup/Screenshot_423_j0dqh3.png)
-
-### <span style="color: Orange;"> Desktop View</span>
-
-###### [Home Page](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704528606/riseup/home-page.png)
-
-###### [No Results View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704528603/riseup/no-results-view.png)
-
-###### [Failure view](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704528604/riseup/failure-view.png)
-
-### <span style="color: violet;">Demo</span>
-
-### [Link](https://rise-upp-search-app.vercel.app/)
+### [Link](https://rise-upp-hv0ba30wd-charishmas-projects-589f9c23.vercel.app)
